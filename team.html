@@ -17,22 +17,22 @@
     </header>
 
     <main class="team">
-        <section class="member" data-id="1432069553147478138" data-name="fynah">
-            <img src="" alt="fynah" class="avatar">
+        <section class="member">
+            <img src="https://cdn.discordapp.com/avatars/1432069553147478138/7e9c952f6b16c240aaa1d366f2d08ddf.png?size=128" alt="fynah">
             <h2>fynah</h2>
             <p>Cheffe de projet — veille à ce que le projet reste sur la bonne voie 🌸</p>
             <a href="https://discord.com/users/1432069553147478138" class="link">Profil Discord</a>
         </section>
 
-        <section class="member" data-id="1057705135515639859" data-name="imroxxor">
-            <img src="" alt="imroxxor" class="avatar">
+        <section class="member">
+            <img src="https://orion-bot.fr/static/images/roxxor.png" alt="imroxxor">
             <h2>imroxxor</h2>
             <p>Développeur principal — responsable du développement, des mises à jour et du support ⚙️</p>
             <a href="https://discord.com/users/1057705135515639859" class="link">Profil Discord</a>
         </section>
 
-        <section class="member" data-id="1003325843910701118" data-name="waudran">
-            <img src="" alt="waudran" class="avatar">
+        <section class="member">
+            <img src="https://orion-bot.fr/static/images/audran.png" alt="waudran">
             <h2>waudran</h2>
             <p>Développeur — apporte sa touche personnelle et simplifie la gestion du projet 💡</p>
             <a href="https://discord.com/users/1003325843910701118" class="link">Profil Discord</a>
@@ -42,38 +42,5 @@
     <footer>
         <p>Bot toute mignonne • UwU</p>
     </footer>
-
-    <script>
-        async function loadDiscordAvatars() {
-            const members = document.querySelectorAll('.member');
-            for (const member of members) {
-                const userId = member.dataset.id;
-                const img = member.querySelector('.avatar');
-
-                try {
-                    const res = await fetch(`https://discord.com/api/v10/users/${userId}`, {
-                        headers: { 
-                            "Authorization": "Bot TON_TOKEN_ICI"
-                        }
-                    });
-
-                    if (!res.ok) throw new Error("Non accessible sans token valide");
-
-                    const data = await res.json();
-                    const avatarUrl = data.avatar
-                        ? `https://cdn.discordapp.com/avatars/${userId}/${data.avatar}.png?size=1024`
-                        : `https://cdn.discordapp.com/embed/avatars/${Number(data.discriminator) % 5}.png`;
-
-                    img.src = avatarUrl;
-
-                } catch (err) {
-                    // Par défaut si la requête échoue
-                    img.src = "https://cdn.discordapp.com/embed/avatars/0.png";
-                }
-            }
-        }
-
-        loadDiscordAvatars();
-    </script>
 </body>
 </html>
