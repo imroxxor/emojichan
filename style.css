@@ -123,3 +123,29 @@ footer {
     padding: 1em;
     font-size: 0.9em;
 }
+
+.name-link {
+    color: #5865F2; /* couleur Discord */
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.name-link:hover {
+    color: #7983F5; /* couleur plus claire au survol */
+}
+
+/* Bouton rond Discord */
+.discord-btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('images/discord-icon.png'); /* ton image locale ou un lien externe */
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    transition: transform 0.2s ease;
+}
+.discord-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #5865F2;
+}
