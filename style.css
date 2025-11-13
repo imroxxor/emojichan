@@ -39,9 +39,15 @@ nav a {
     transition: 0.3s;
 }
 
-nav a:hover, nav a.active {
-    text-decoration: underline;
+nav a.active {
+    pointer-events: none;
+    cursor: default;
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    opacity: 0.8;
 }
+
 
 main {
     flex: 1;
