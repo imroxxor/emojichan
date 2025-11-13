@@ -16,28 +16,32 @@
         </nav>
     </header>
 
-    <main class="team">
-        <section class="member">
-            <img src="https://cdn.discordapp.com/avatars/1432069553147478138/7e9c952f6b16c240aaa1d366f2d08ddf.png?size=128" alt="fynah">
-            <h2>fynah</h2>
-            <p>Cheffe de projet — veille à ce que le projet reste sur la bonne voie 🌸</p>
-            <a href="https://discord.com/users/1432069553147478138" class="link">Profil Discord</a>
-        </section>
+    .name-link {
+        color: #5865F2; /* couleur Discord */
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+    .name-link:hover {
+        color: #7983F5; /* couleur plus claire au survol */
+    }
 
-        <section class="member">
-            <img src="https://cdn.discordapp.com/avatars/1057705135515639859/85d96ca3b8017028a5f470cfc205569c.png?size=128" alt="imroxxor">
-            <h2>imroxxor</h2>
-            <p>Développeur principal — responsable du développement, des mises à jour et du support ⚙️</p>
-            <a href="https://discord.com/users/1057705135515639859" class="link">Profil Discord</a>
-        </section>
+    /* Bouton rond Discord */
+    .discord-btn {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-image: url('images/discord-icon.png'); /* ton image locale ou un lien externe */
+        background-size: cover;
+        background-position: center;
+        margin-top: 10px;
+        transition: transform 0.2s ease;
+    }
+    .discord-btn:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #5865F2;
+    }
 
-        <section class="member">
-            <img src="https://orion-bot.fr/static/images/audran.png" alt="waudran">
-            <h2>waudran</h2>
-            <p>Développeur — apporte sa touche personnelle et simplifie la gestion du projet 💡</p>
-            <a href="https://discord.com/users/1003325843910701118" class="link">Profil Discord</a>
-        </section>
-    </main>
 
     <footer>
         <p>Bot toute mignonne • UwU</p>
