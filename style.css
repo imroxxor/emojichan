@@ -149,3 +149,37 @@ footer {
     transform: scale(1.1);
     box-shadow: 0 0 10px #5865F2;
 }
+
+.github-btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('images/github-icon.png'); /* mets ton icône GitHub ici */
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-right: 8px;
+    transition: transform 0.2s ease;
+}
+.github-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #000;
+}
+
+.orion-btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('images/orion-icon.png'); /* ton image Orion */
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-right: 8px;
+    transition: transform 0.2s ease;
+}
+.orion-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ffab00;
+}
