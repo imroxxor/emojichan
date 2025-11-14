@@ -200,3 +200,20 @@ footer {
     transform: scale(1.1);
     box-shadow: 0 0 10px #0d0d0d;
 }
+
+.disdevfr-btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('images/disdevfr-icon.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-right: 8px;
+    transition: transform 0.2s ease;
+}
+.disdevfr-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #222222;
+}
