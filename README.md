@@ -27,16 +27,13 @@ Ce projet contient les pages suivantes :
 ## 📁 Structure du projet
 
 emoji-chan-website/
-
-│── index.html
-│── team.html
-│── about.html
-│── 404.html
-│── style.css
-│── images/
-│   ├── discord-icon.png
-│   ├── github-icon.png
-│   ├── orion-icon.png
+-> index.html
+-> team.html
+-> about.html
+-> 404.html
+-> style.css
+-> images/
+-> -> Toutes les images
 
 ---
 
