@@ -4,7 +4,7 @@ Bienvenue sur le site web officiel d’Emoji-Chan !
 Ce projet contient les pages suivantes :
 
 - [home.html](https://github.com/imroxxor/emojichan/blob/main/home.html) — Page d’accueil
-- `team.html` — Présentation de l’équipe
+- [team.html](https://github.com/imroxxor/emojichan/blob/main/team.html) — Présentation de l’équipe
 - [about.html](https://github.com/imroxxor/emojichan/blob/main/about.html) — Informations sur le projet
 - [404.html](https://github.com/imroxxor/emojichan/blob/main/404.html) — Page d’erreur personnalisée
 - `style.css` — Style général du site
