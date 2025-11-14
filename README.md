@@ -6,7 +6,7 @@ Ce projet contient les pages suivantes :
 - `home.html` — Page d’accueil
 - `team.html` — Présentation de l’équipe
 - `about.html` — Informations sur le projet
-- `404.html` — Page d’erreur personnalisée
+- [404.html](https://github.com/imroxxor/emojichan/blob/main/404.html) — Page d’erreur personnalisée
 - `style.css` — Style général du site
 
 ## 🚀 Lancer le site en local
