@@ -17,9 +17,10 @@ Ce projet contient les pages suivantes :
 
 ## 👥 Équipe
 
-- **fynah** — Cheffe de projet  
-- **imroxxor** — Développeur principal  
-- **waudran** — Développeur & architecture
+| Membre | Rôle | Description |
+|:--|:--|:--|
+| [@fynah](https://discord.com/users/1432069553147478138) | **Cheffe de projet** | Supervise l’avancement global du projet et s’assure qu’il reste fidèle à sa vision initiale. |
+| [@imroxxor](https://discord.com/users/1057705135515639859) | **Développeur principal** | Responsable du développement, des mises à jour et du support technique. | 
 
 ---
 
