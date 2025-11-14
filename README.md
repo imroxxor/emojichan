@@ -27,6 +27,7 @@ Ce projet contient les pages suivantes :
 ## 📁 Structure du projet
 
 emoji-chan-website/
+
 │── index.html
 │── team.html
 │── about.html
