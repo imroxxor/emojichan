@@ -40,7 +40,7 @@ emoji-chan-website/
 
 ## ❤️ Contributions
 
-Tu peux proposer des améliorations via [notre Discord]() !
+Tu peux proposer des améliorations via [notre Discord](https://discord.gg/bTJrebPNEB) !
 
 
 ---
