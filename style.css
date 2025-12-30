@@ -29,6 +29,7 @@ header {
 
 nav {
     margin-top: 0.5em;
+    cursor: pointer;
 }
 
 nav a {
@@ -37,7 +38,6 @@ nav a {
     text-decoration: none;
     font-weight: 600;
     transition: 0.3s;
-    cursor: pointer;
 }
 
 nav a.active {
